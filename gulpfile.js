@@ -38,7 +38,7 @@ var isRelease = argv.indexOf('--release') > -1;
 
 gulp.task('images', function() {
     return gulp.src(['app/img/*'])
-        .pipe(gulp.dest('www/buil/images'));
+        .pipe(gulp.dest('www/build/images'));
 });
 
 
