@@ -1,14 +1,25 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
+    <ion-navbar myNav>
+        <ion-title>
+            Ionic 2 App
+        </ion-title>
+    </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content padding overflow-scroll="false" class="home-page">
+
+    <ion-row class="spacer">
+    </ion-row>
+
+
+    <div>
+        <button large outline light (click)="about()"> About Us</button>
+    </div>
+    <div>
+        <button large outline light (click)="video()"> Watch Videos</button>
+    </div>
+    <div>
+        <button large outline light>Take a Pic</button>
+    </div>
+
 </ion-content>

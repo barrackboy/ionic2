@@ -1,3 +1,10 @@
 .home-page {
-  
+    background-image: url('../images/green.jpg');
+    background-size: cover;
+    .spacer {
+        height: 33%;
+    }
+    div {
+        text-align: center;
+    }
 }

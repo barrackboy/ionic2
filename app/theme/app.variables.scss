@@ -16,6 +16,11 @@
 // to the mode belong in either the app.ios.scss or app.md.scss files.
 
 
+$card-md-margin-bottom: 0px ;
+$card-md-margin-left: 0px ;
+$card-md-margin-right: 0px ;
+$card-md-margin-top: 0px ;
+
 // App Shared Color Variables
 // --------------------------------------------------
 // It's highly recommended to change the default colors
@@ -31,5 +36,10 @@ $colors: (
   danger:     #f53d3d,
   light:      #f4f4f4,
   dark:       #222,
-  favorite:   #69BB7B
+  favorite:   #69BB7B,
+
+  myNav:(
+    base: #000,
+    contrast: #f4f4f4,
+  )
 );

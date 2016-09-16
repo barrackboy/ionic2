@@ -1,0 +1,10 @@
+.about {
+    background-color: color($colors, dark);
+    .divider {
+        width: 70%;
+        height: 20px;
+        border-top-width: 2px;
+        border-top-style: inset;
+        border-top-color: color($colors, danger);
+    }
+}
